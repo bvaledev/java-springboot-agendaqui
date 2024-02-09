@@ -11,7 +11,7 @@ public class SwaggerConfig {
     OpenAPI openAPI() {
         return new OpenAPI().info(
                 new Info()
-                        .title("Agendaqui API")
+                        .title("AgendAqui API")
                         .description("API para agendamento de consultas")
                         .version("1.0.0")
         );
