@@ -3,7 +3,6 @@ package br.dev.brendo.agendaqui.module.patient.useCase;
 import br.dev.brendo.agendaqui.module.patient.dto.PatientInputDTO;
 import br.dev.brendo.agendaqui.module.patient.entity.PatientEntity;
 import br.dev.brendo.agendaqui.module.patient.repository.PatientRepository;
-import br.dev.brendo.agendaqui.module.specialization.useCase.UpdateSpecializationUseCase;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

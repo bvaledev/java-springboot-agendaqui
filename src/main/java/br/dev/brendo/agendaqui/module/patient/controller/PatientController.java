@@ -6,7 +6,6 @@ import br.dev.brendo.agendaqui.module.patient.dto.PatientInputDTO;
 import br.dev.brendo.agendaqui.module.patient.entity.PatientEntity;
 import br.dev.brendo.agendaqui.module.patient.useCase.*;
 import io.swagger.v3.oas.annotations.tags.Tag;
-import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;

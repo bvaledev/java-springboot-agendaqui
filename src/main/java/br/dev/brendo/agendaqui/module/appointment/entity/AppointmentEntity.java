@@ -2,7 +2,6 @@ package br.dev.brendo.agendaqui.module.appointment.entity;
 
 import br.dev.brendo.agendaqui.module.patient.entity.PatientEntity;
 import br.dev.brendo.agendaqui.module.specialization.entity.SpecializationEntity;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
