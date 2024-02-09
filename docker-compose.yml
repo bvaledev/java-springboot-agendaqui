@@ -1,0 +1,10 @@
+services:
+  postgres:
+    image: postgres
+    container_name: agendaqui-db
+    volumes:
+      - ./postgres/01-database.sql:/docker-entrypoint-initdb.d/01-database.sql
+    environment:
+      POSTGRES_PASSWORD: "root"
+    ports:
+      - "5433:5432"
