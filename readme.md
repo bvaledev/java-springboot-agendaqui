@@ -1,5 +1,7 @@
 # AgendAqui
 
+<p align="center"><img src="./img/logo-default.svg" alt="AgendAqui Logo" width="250"/></p>
+
 API para agendamento de consultas clínicas desenvolvida como trabalho da faculdade do curso de sistemas de informação.
 
 Com esta API é possível definir especialidades com seus respectivos horários de atendimento, cadastrar pacientes, agendar e verificar consultas.
@@ -30,4 +32,4 @@ $ mvn spring-boot:run
 
 Acesse as especificações da API no endpoint [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
-![!doc](./doc-agendaqui.png)
+![!doc](./img/doc-agendaqui.png)
